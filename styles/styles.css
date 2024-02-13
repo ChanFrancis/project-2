@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(15, 15, 15) !important;
+    
+}
+
+.businessCard {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    color: #c9bfbf;
+    min-height: 500px;
+}
+
+.blur {
+    backdrop-filter: blur(16px);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    min-height: 500px;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
